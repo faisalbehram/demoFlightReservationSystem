@@ -1,0 +1,53 @@
+
+server:
+  port: 8443
+  ssl:
+    key-store-password: password
+    key-store: classpath:keystore.p12
+    key-store-type: PKCS12
+    key-alias: tomcat
+
+
+#security:
+#  oauth2:
+#   client:
+#     clientId: 2352955291480064
+#     clientSecret: 197d45b34c14c7e7d9777c4aee53fc80
+#     accessTokenUri: https://graph.facebook.com/oauth/access_token
+#     userAuthorizationUri: https://www.facebook.com/dialog/oauth
+#     tokenName: oauth_token
+#     authenticationScheme: query
+#     clientAuthenticationScheme: form
+#     resource:
+#     userInfoUri: https://graph.facebook.com/me
+
+
+
+#spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          reserveration-pro:
+#            client-id: crypto-reservation
+#            client-secret: secret
+#            client-name: Crypto Reservation
+#            scope: user_info
+#            redirect-uri: http://localhost:8080/login/oauth2/code/
+#            client-authentication-method: basic
+#            authorization-grant-type: authorization_code
+#            provider: reservation-provider  
+#          provider:
+#            reservation-provider:
+#              authorization-uri: http://localhost:8081/auth/oauth/authorize 
+#              token-uri: http://localhost:8081/auth/oauth/token
+#              user-info-uri: http://localhost:8081/auth/userinfo
+#              user-name-attribute: username
+#
+##security:
+#  oauth2:
+#    client:
+#      registration:
+#        google:
+#          client-id: 123835495181-uoo7f77j42c4u36l2kim04bahh4le3t2.apps.googleusercontent.com
+#          client-secret: oMml2gqfrFoRo8p84q9fsfyv

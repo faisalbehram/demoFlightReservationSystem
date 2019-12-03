@@ -49,6 +49,7 @@ public class FlightController {
 	
 	@GetMapping("/findflightpage")
 	public String findflightpage(ModelMap theModelMap) {
+		System.out.println("in side flight page");
 		return "findflights.jsp";
 	}
 	

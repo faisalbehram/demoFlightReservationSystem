@@ -6,7 +6,7 @@ public class ReservationRequest {
 	
 	// the whole reservation is using this class to show the reservation confirmation thats why it ACCESS both passenger and flight details
 	
-	// this is testing
+	// this is testing done
 	private long flightId;
 	private Passenger passengerId;// this is used for passenger id for documentsx
 	private String passengerFirstName;
